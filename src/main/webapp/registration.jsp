@@ -40,10 +40,11 @@
         }
     </style>
 </head>
+<%@ include file="navbar.jsp" %>
 <body>
     <div class="container">
         <h2>Register</h2>
-        <form action="register_process.jsp" method="post">
+        <form action="registration" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
 
